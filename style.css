@@ -1,0 +1,56 @@
+/* color pallete at https://colorhunt.co/palette/181367 */
+
+:root {
+    font-size: 15px;
+}
+
+body {
+    background-color: #162447;
+    color: #c8c3cc;
+}
+
+h1 {
+    text-align: center;
+}
+
+table, td{
+    border: solid #e43f5a 3px;
+    /* margin: auto; */
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    /* border-collapse: collapse; */
+}
+
+/* th, td {
+    padding: 25px;
+    text-align: center;
+} */
+
+#game {
+    /* border: solid green 10px; */
+    height: 75vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 20%; */
+}
+
+.game-cell {
+    font-size: 10vw;
+    cursor: pointer;
+    padding: 25px;
+    text-align: center;
+    height: 33.3%;
+    width: calc(100% / 3);
+    /* border-spacing: balance; */
+}
+
+button {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 15px;
+}
